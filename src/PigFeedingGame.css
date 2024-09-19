@@ -1,0 +1,29 @@
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .pig-container {
+    margin: 20px auto;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  img {
+    border-radius: 50%;
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .bouncy {
+    background-color: #ff6347;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s ease, width 0.2s ease, height 0.2s ease;
+  }
+  
+  .bounce {
+    animation: bounce-animation 0.5s linear;
+  }
+  
+  @keyframes bounce-animation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+  }
+  
